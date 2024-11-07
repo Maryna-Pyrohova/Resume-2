@@ -3,19 +3,21 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <title>My resume</title>
     </head>
     <body>
-        <div>
+        <div class="wrapper">
         <!--My info-->
             <div>
-                <h2><a name="top">Trainee QA</a></h2>    
-                <h1> <a href="https://www.facebook.com/profile.php?id=100006796846376"><i>Maryna Pyrohova</i></a></h1>
+                <h2 id="name"><a name="top">Trainee QA</a></h2>    
+                <h1 class="h1"> <a href="https://www.facebook.com/profile.php?id=100006796846376"><i>Maryna Pyrohova</i></a></h1>
             </div>
         <!--Photo and contacts-->
             <div>
-                <a href="pages/gallery.html"><img src="img/IMG20231115125852.jpg" alt="My photo" width="370"></a>
-                <div>
+                <a><img src="img/IMG20231115125852.jpg" alt="My photo" width="370"></a>
+                <div class="div">
                     <h3><a href="pages/contact.html">Contacts</h3>
                     <p>
                     <span>C:</span> 
@@ -25,15 +27,15 @@
                     <span>E:</span>
                     <a href="malto:marinapirogova2009@ukr.net">marinapirogova2009@ukr.net</a>
                     </p>
-                    <hr>
+                    <a href="https://www.facebook.com/profile.php?id=100006796846376" class="fa fa-facebook"></a>
                 </div>
             </div>
         <!--Work Experience-->
-            <div>
-                <h3>Work Experience</h3>
+            <div class="div">
+                <h3 class="h3">Work Experience</h3>
         <!-- Company 1-->
-                <div>
-                    <h4>Accountant <b>LLC “NVP ENERGOREGULYATOR”</b></h4>
+                <ol>
+                    <li><h4>Accountant <b>LLC “NVP ENERGOREGULYATOR”</b></h4></li>
                     <p>August 2008 - up to now | Ukraine</p>
                     <ul>
                         <li>
@@ -49,10 +51,8 @@
                             Personnel, general business administration. 
                         </li>
                     </ul>
-                </div>  
         <!-- Company 2-->
-                <div>
-                    <h4>Accountant <b>"COMPANY BIR" LLC</b></h4>
+                    <li><h4>Accountant <b>"COMPANY BIR" LLC</b></h4></li>
                     <p>June 2006 - February 2007 | Ukraine</p>
                     <ul>
                         <li>
@@ -65,18 +65,18 @@
                             Material movement accounting. 
                         </li>
                     </ul>
-                </div>
+                </ol>
             </div>  
         <!--Education-->
-            <div>
-                <h3>Education</h3>
+            <div class="div">
+                <h3 class="h3">Education</h3>
                 <h4><b>Kharkiv National Agrarian University named after V.V. Dokuchaeva</b></h4>
                 <h4>Accounting and Auditing</h4>
                 <p>September 2001 - June 2006 | Ukraine</p>
             </div>                    
         <!--Tech Skills-->
-            <div>
-                <h3>Tech Skills</h3>
+            <div class="div">
+                <h3 class="h3">Tech Skills</h3>
                 <ul>
                     <li>HTML5</li>
                     <li>CSS3</li>
@@ -86,8 +86,8 @@
                 </ul>
             </div>
         <!--Soft Skills-->
-            <div>
-                <h3>Soft Skills</h3>
+            <div class="div">
+                <h3 class="h3">Soft Skills</h3>
                 <ul>
                     <li>Scrum</li>
                     <li>Agile</li>
@@ -95,11 +95,10 @@
                 </ul>
             </div>
             <div>
-                <h5><a href="#top">UP</a></h5>
+                <h5 class="center"><a href="#top" target="_blank">UP</a></h5>
             </div>
             <hr>
-        <footer>
-            <p>© 2024 Kharkiv</p>
+            <p class="center">© 2024 Kharkiv</p>
         </footer>
         </div>
     </body>
